@@ -8,4 +8,7 @@
 - [s06: Custom Tools](./s06-custom-tools.md)
 - [s07: Sandbox Production](./s07-sandbox-production.md)
 - [s08: CLI](./s08-cli.md)
-
+- [s09: Telemetry](./s09-telemetry.md)
+- [s10: Observability](./s10-observability.md)
+- [s11: Remote Browser + Profiles](./s11-remote-browser-profiles.md)
+- [s12: CLI Advanced](./s12-cli-advanced.md)

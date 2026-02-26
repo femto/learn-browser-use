@@ -14,7 +14,7 @@
    The loop is the product.
 ```
 
-**8 个渐进小节，从最小 Agent 到生产 Sandbox。**
+**12 个渐进小节，从最小 Agent 到生产观测与规模化。**
 **每节只加一个机制，每节一个口号。**
 
 > **s01** *"task is the program"* — 一句任务就是完整程序
@@ -32,6 +32,14 @@
 > **s07** *"deploy by wrapping"* — `@sandbox` 直接生产化
 >
 > **s08** *"scripts become commands"* — CLI 变成可重复操作
+>
+> **s09** *"telemetry is optional"* — 匿名遥测与可控退出
+>
+> **s10** *"trace everything"* — OpenLIT 观测全链路
+>
+> **s11** *"cloud is the default"* — 远程浏览器与 profiles
+>
+> **s12** *"cli is a workflow"* — CLI 进入全流程
 
 ---
 
@@ -47,6 +55,10 @@
 | [s06](./docs/zh/s06-custom-tools.md) | Custom Tools | *actions are functions* |
 | [s07](./docs/zh/s07-sandbox-production.md) | Sandbox Production | *deploy by wrapping* |
 | [s08](./docs/zh/s08-cli.md) | CLI | *scripts become commands* |
+| [s09](./docs/zh/s09-telemetry.md) | Telemetry | *telemetry is optional* |
+| [s10](./docs/zh/s10-observability.md) | Observability | *trace everything* |
+| [s11](./docs/zh/s11-remote-browser-profiles.md) | Remote Browser + Profiles | *cloud is the default* |
+| [s12](./docs/zh/s12-cli-advanced.md) | CLI Advanced | *cli is a workflow* |
 
 ## Learning Path (English)
 
@@ -60,6 +72,10 @@
 | [s06](./docs/en/s06-custom-tools.md) | Custom Tools | *actions are functions* |
 | [s07](./docs/en/s07-sandbox-production.md) | Sandbox Production | *deploy by wrapping* |
 | [s08](./docs/en/s08-cli.md) | CLI | *scripts become commands* |
+| [s09](./docs/en/s09-telemetry.md) | Telemetry | *telemetry is optional* |
+| [s10](./docs/en/s10-observability.md) | Observability | *trace everything* |
+| [s11](./docs/en/s11-remote-browser-profiles.md) | Remote Browser + Profiles | *cloud is the default* |
+| [s12](./docs/en/s12-cli-advanced.md) | CLI Advanced | *cli is a workflow* |
 
 ---
 
@@ -81,3 +97,10 @@ sed -n '1,120p' examples/simple.py
 sed -n '1,200p' examples/features/custom_output.py
 ```
 
+## Web (Static)
+
+Open the static page:
+
+```sh
+open ~/projects/learn-browser-use/web/index.html
+```

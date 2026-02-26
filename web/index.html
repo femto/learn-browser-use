@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn Browser-Use</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="kicker">Learn Browser-Use</p>
+        <h1>Browser Agents From 0→1</h1>
+        <p class="subtitle">
+          A bilingual, step-by-step mental model for Browser-Use — from the minimal agent loop to
+          cloud deployment, observability, and CLI workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="../docs/en/README.md">English Docs</a>
+          <a class="btn ghost" href="../docs/zh/README.md">中文文档</a>
+          <a class="btn ghost" href="../README.md">Repo README</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="ascii">
+          <pre>
+THE BROWSER AGENT LOOP
+======================
+
+Task -> Agent -> LLM -> Actions -> Browser -> State
+            ^                           |
+            |-------- history ----------|
+          </pre>
+        </div>
+        <div class="meta">
+          <div>
+            <span class="label">Sessions</span>
+            <span class="value">12</span>
+          </div>
+          <div>
+            <span class="label">Languages</span>
+            <span class="value">EN / 中文</span>
+          </div>
+          <div>
+            <span class="label">Focus</span>
+            <span class="value">Agent · Browser · Cloud</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="section">
+        <div class="section-head">
+          <h2>Learning Path</h2>
+          <p>Each session adds one mechanism. Each mechanism has one motto.</p>
+        </div>
+        <div class="grid">
+          <a class="card" href="../docs/en/s01-agent-quickstart.md">
+            <span class="tag">s01</span>
+            <h3>Task Is The Program</h3>
+            <p>Minimal Agent + ChatBrowserUse. One task string, one loop.</p>
+          </a>
+          <a class="card" href="../docs/en/s02-browser-session.md">
+            <span class="tag">s02</span>
+            <h3>Browser Is A Session</h3>
+            <p>Stateful tabs, cookies, and remote/cloud sessions.</p>
+          </a>
+          <a class="card" href="../docs/en/s03-tools-actions.md">
+            <span class="tag">s03</span>
+            <h3>Tools Are The Verbs</h3>
+            <p>Default action set defines what the agent can do.</p>
+          </a>
+          <a class="card" href="../docs/en/s04-agent-history.md">
+            <span class="tag">s04</span>
+            <h3>History Is The Truth</h3>
+            <p>Use AgentHistoryList for audit, debug, and results.</p>
+          </a>
+          <a class="card" href="../docs/en/s05-structured-output.md">
+            <span class="tag">s05</span>
+            <h3>Structure Beats Strings</h3>
+            <p>Pydantic schemas for reliable outputs.</p>
+          </a>
+          <a class="card" href="../docs/en/s06-custom-tools.md">
+            <span class="tag">s06</span>
+            <h3>Actions Are Functions</h3>
+            <p>Register tools to extend capability.</p>
+          </a>
+          <a class="card" href="../docs/en/s07-sandbox-production.md">
+            <span class="tag">s07</span>
+            <h3>Deploy By Wrapping</h3>
+            <p>Use @sandbox to go production instantly.</p>
+          </a>
+          <a class="card" href="../docs/en/s08-cli.md">
+            <span class="tag">s08</span>
+            <h3>Scripts Become Commands</h3>
+            <p>CLI for persistent browser control.</p>
+          </a>
+          <a class="card" href="../docs/en/s09-telemetry.md">
+            <span class="tag">s09</span>
+            <h3>Telemetry Is Optional</h3>
+            <p>Anonymous usage data with explicit opt-out.</p>
+          </a>
+          <a class="card" href="../docs/en/s10-observability.md">
+            <span class="tag">s10</span>
+            <h3>Trace Everything</h3>
+            <p>OpenLIT integration for end-to-end tracing.</p>
+          </a>
+          <a class="card" href="../docs/en/s11-remote-browser-profiles.md">
+            <span class="tag">s11</span>
+            <h3>Cloud Is The Default</h3>
+            <p>Remote browser + profiles for scale.</p>
+          </a>
+          <a class="card" href="../docs/en/s12-cli-advanced.md">
+            <span class="tag">s12</span>
+            <h3>CLI Is A Workflow</h3>
+            <p>Install, setup, doctor, and templates.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <h2>Pick a Language</h2>
+          <p>
+            Both English and Chinese tracks contain the same session structure and code references.
+            Choose one and go straight to the lesson.
+          </p>
+        </div>
+        <div class="language-panel">
+          <a class="btn primary" href="../docs/en/README.md">English Track</a>
+          <a class="btn ghost" href="../docs/zh/README.md">中文路径</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <span>Learn Browser-Use</span>
+        <span class="dot">•</span>
+        <a href="https://github.com/browser-use/browser-use">Browser-Use</a>
+      </div>
+      <div>
+        <a href="../README.md">README</a>
+        <a href="../docs/en/README.md">Docs</a>
+        <a href="../docs/zh/README.md">中文</a>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
